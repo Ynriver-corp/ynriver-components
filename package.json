@@ -1,0 +1,25 @@
+{
+  "name": "ynriver-components",
+  "version": "1.0.0",
+  "description": "Ynriver components",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ynriver-corp/ynriver-components.git"
+  },
+  "keywords": [
+    "ynriver"
+  ],
+  "author": "ynriver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ynriver-corp/ynriver-components/issues"
+  },
+  "homepage": "https://github.com/Ynriver-corp/ynriver-components#readme",
+  "dependencies": {
+    "styled-components": "^5.3.5"
+  }
+}
