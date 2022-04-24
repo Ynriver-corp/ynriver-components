@@ -1,4 +1,4 @@
-const Test = (value) => value === "ynriver-1.0.1";
+const Test = (value) => value === "ynriver-1.0.2";
 
 module.exports = {Test};
 
