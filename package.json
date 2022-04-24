@@ -1,6 +1,6 @@
 {
   "name": "ynriver-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ynriver components",
   "main": "index.js",
   "scripts": {
