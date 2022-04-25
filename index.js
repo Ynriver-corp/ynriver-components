@@ -4,4 +4,6 @@
 
 const {Test} = require("./src/components/commons/Anchor");
 const Button = () => <button>hola</button>
+
 module.exports = {Test, Button};
+
