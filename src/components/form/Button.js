@@ -1,9 +1,13 @@
-import React, {forwardRef} from "react";
+import React from "react";
 import styled from "styled-components";
 
-export const Button = forwardRef((props, ref) => <ButtonAntCss ref={ref} {...props} />);
+const Button = React
+    .forwardRef((props, ref) =>
+        <ButtonAntCss ref={ref} {...props} />);
 
 const ButtonAntCss = styled.button`
   background: red;
   color: white;
 `;
+
+export default Button;
