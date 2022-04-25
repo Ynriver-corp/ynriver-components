@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/Ynriver-corp/ynriver-components#readme",
   "dependencies": {
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.5",
+    "antd": "^4.16.11"
+  },
+  "resolutions": {
+    "styled-components": "^5"
   }
 }
