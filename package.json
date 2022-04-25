@@ -2,7 +2,7 @@
   "name": "ynriver-components",
   "version": "1.0.3",
   "description": "Ynriver components",
-  "main": "./dist/index.js",
+  "main": "./index.js",
   "scripts": {
     "test": "test",
     "build": "npm run webpack",
