@@ -1,7 +1,7 @@
-import React from "react";
+const {Test} = require("./components/commons/Anchor");
+const {Button} = require("./components/form/Button");
 
-export * from "./components/form/Button";
-export * from "./components/commons/Anchor"
+module.exports={Test,Button}
 
 // TODO: Install antd.
 // TODO: BTN.
