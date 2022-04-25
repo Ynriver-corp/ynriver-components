@@ -1,7 +1,7 @@
 const {Button} = require("./components/form/Button");
 
 const Test = (value) => value === "ynriver-1.0.2";
-s
+
 module.exports = {Test, Button};
 
 // TODO: Install antd.
