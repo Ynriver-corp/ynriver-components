@@ -1,9 +1,7 @@
-const {Button} = require("./components/form/Button");
+export * from "./components/form/Button"
 
-const Test = (value) => value === "ynriver-1.0.2";
+export const Test = (value) => value === "ynriver-1.0.2";
 
-
-module.exports = {Test, Button};
 
 // TODO: Install antd.
 // TODO: BTN.
