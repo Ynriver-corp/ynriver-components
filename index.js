@@ -3,7 +3,7 @@ const {ButtonAnt} = require("./components/form/Button");
 const Test = (value) => value === "ynriver-1.0.2";
 
 
-module.exports = {Test, Button: ButtonAnt};
+module.exports = {Test, ButtonAnt};
 
 // TODO: Install antd.
 // TODO: BTN.
