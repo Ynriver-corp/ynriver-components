@@ -1,10 +1,10 @@
 import React, {forwardRef} from "react";
 import styled from "styled-components";
-import * as ButtonAnt from "antd/lib/button";
+import Button from "antd/lib/button";
 
-export const Button = forwardRef((props, ref) => <ButtonAntCss ref={ref} {...props} />);
+export const ButtonAnt = forwardRef((props, ref) => <ButtonAntCss ref={ref} {...props} />);
 
-const ButtonAntCss = styled(ButtonAnt)`
+const ButtonAntCss = styled(Button)`
   background: ${({variant = "default", theme}) =>
           variant === "primary"
                   ? theme.basic.primary
