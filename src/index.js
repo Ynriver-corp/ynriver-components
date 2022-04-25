@@ -2,7 +2,7 @@
 
 //export const {Test} = require("./components/commons/Anchor");
 //export const Test = (value) => value === "ynriver";
-export const Button = () => <button>hola</button>
+//export const Button = () => <button>hola</button>
 
 //module.exports = {Test}
 
