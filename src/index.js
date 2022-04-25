@@ -1,7 +1,7 @@
 const {Test} = require("./components/commons/Anchor");
 const {Button} = require("./components/form/Button");
 
-module.export = {Test, Button}
+module.exports = {Test, Button}
 
 // TODO: Install antd.
 // TODO: BTN.
