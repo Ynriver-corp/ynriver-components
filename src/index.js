@@ -1,5 +1,5 @@
 export * from "./components/form/Button";
-export const Test = (value) => value === "ynriver";
+export * from "./components/commons/Anchor"
 
 // TODO: Install antd.
 // TODO: BTN.
