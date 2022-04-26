@@ -1,8 +1,8 @@
-//import React from "react";
+import React from "react";
 
 //export const {Test} = require("./components/commons/Anchor");
-const Test = (value) => value === "ynriver";
-export default Test;
+export const Test = (value) => value === "ynriver";
+//export default Test;
 
 //export const Button = () => <button>hola</button>
 //export default Button;
