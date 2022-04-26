@@ -1,15 +1,13 @@
 import React, {forwardRef} from "react";
-//import styled from "styled-components";
-import ButtonAnt from "antd/lib/button";
-
-//export const Button = () => <button>hola</button>
+import styled from "styled-components";
+//import ButtonAnt from "antd/lib/button";
 
 export const Button =
     forwardRef((props, ref) =>
-        <ButtonAnt ref={ref} {...props} />);
-/*
-const ButtonCss = styled(ButtonAnt)`
+        <ButtonCss ref={ref} {...props} />
+    );
+
+const ButtonCss = styled.button`
   background: red;
   color: white;
 `;
-*/

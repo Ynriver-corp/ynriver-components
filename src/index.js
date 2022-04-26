@@ -1,14 +1,11 @@
-/*
-import "core-js/stable";
-import "regenerator-runtime/runtime";
-import React from "react";
- */
+//import "core-js/stable";
+//import "regenerator-runtime/runtime";
 
 import {Button} from "./components/form/Button";
 
-export default {
-    Button
-}
+exports.Button = Button;
+//module.exports = {Button}
+//export default Button
 
 // TODO: Install antd.
 // TODO: BTN.
