@@ -23,7 +23,8 @@ module.exports = {
                             "@babel/plugin-transform-arrow-functions",
                             "@babel/plugin-transform-async-to-generator",
                             "@babel/plugin-transform-object-assign",
-                            "@babel/plugin-transform-runtime"
+                            "@babel/plugin-transform-runtime",
+                            "babel-plugin-styled-components"
                         ]
                     }
                 }

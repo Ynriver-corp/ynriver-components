@@ -1,17 +1,12 @@
+/*
 import "core-js/stable";
 import "regenerator-runtime/runtime";
-//import React from "react";
+import React from "react";
+ */
 
-//export const {Test} = require("./components/commons/Anchor");
-export const Test = (value) => value === "ynriver";
-//export default Test;
+import {Button} from "./components/form/Button";
 
-//export const Button = () => <button>hola</button>
-//export default Button;
-//module.exports = {Test}
-
-//export * from "./components/commons/Anchor"
-//export * from "./components/form/Button"
+exports.Button = Button;
 
 // TODO: Install antd.
 // TODO: BTN.
