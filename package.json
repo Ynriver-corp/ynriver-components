@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "Ynriver components",
   "main": "./dist/index.js",
+  "browser": "./dist/index.js",
   "scripts": {
     "test": "test",
     "build": "webpack --config webpack.config.js"

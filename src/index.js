@@ -6,7 +6,9 @@ import React from "react";
 
 import {Button} from "./components/form/Button";
 
-exports.Button = Button;
+export default {
+    Button
+}
 
 // TODO: Install antd.
 // TODO: BTN.
