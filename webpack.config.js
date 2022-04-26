@@ -15,8 +15,16 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: ["@babel/preset-env", '@babel/preset-react'],
-                        plugins: ['@babel/plugin-transform-runtime']
+                        presets: [
+                            '@babel/preset-env',
+                            '@babel/preset-react'
+                        ],
+                        plugins: [
+                            "@babel/plugin-transform-arrow-functions",
+                            "@babel/plugin-transform-async-to-generator",
+                            "@babel/plugin-transform-object-assign",
+                            "@babel/plugin-transform-runtime"
+                        ]
                     }
                 }
             },
