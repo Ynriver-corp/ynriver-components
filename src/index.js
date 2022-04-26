@@ -1,4 +1,4 @@
-//import React from "react";
+import React from "react";
 
 //export const {Test} = require("./components/commons/Anchor");
 export const Test = (value) => value === "ynriver";
