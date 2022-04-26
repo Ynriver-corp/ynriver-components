@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
     mode: 'production',
-    entry: './src/index.js',
+    entry: path.resolve(__dirname, 'src/index.js'),
     output: {
         path: path.resolve('dist'),
         filename: 'index.js',
@@ -10,21 +10,20 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.jsx?$/,
-                exclude: /(node_modules)/,
-                use: [
-                    {
-                        loader: 'babel-loader',
-                        options: {
-                            presets: ['react']
-                        }
+                test: /\.m?js$/,
+                exclude: /(node_modules|bower_components)/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['@babel/preset-react'],
+                        plugins: ['@babel/plugin-transform-runtime']
                     }
-                ],
+                }
             },
             {
-                test: /\.css$/,
-                use: ['style-loader', 'css-loader']
-            }
+                test: /\.(css)$/,
+                use: ['css-loader']
+            },
         ]
     }
 };
