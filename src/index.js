@@ -1,9 +1,9 @@
 //import "core-js/stable";
 //import "regenerator-runtime/runtime";
 
-import {Button} from "./components/form/Button";
+export {Button} from "./components/form/Button";
 
-exports.Button = Button;
+//exports.Button = Button;
 //module.exports = {Button}
 //export default Button
 
