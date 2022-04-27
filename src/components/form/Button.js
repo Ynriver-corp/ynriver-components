@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Button = forwardRef(
     (props, ref) =>
-        <button ref={ref} {...props} />
+        <ButtonStyled ref={ref} {...props} />
 );
 
 const ButtonStyled = styled.button`

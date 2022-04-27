@@ -52,5 +52,17 @@ module.exports = {
             amd: 'ReactDOM',
             root: 'ReactDOM',
         },
+        "styled-components": {
+            commonjs: "styled-components",
+            commonjs2: "styled-components",
+            amd: "styled-components",
+            root: 'styled-components'
+        },
     },
+    resolve: {
+        alias: {
+            // adjust this path as needed depending on where your webpack config is
+            //'styled-components': path.resolve('./node_modules/styled-components')
+        }
+    }
 };
