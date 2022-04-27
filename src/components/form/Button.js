@@ -1,6 +1,12 @@
 import React, {forwardRef} from "react";
-import {ButtonStyled} from "./ButtonStyled";
+import styled from "styled-components";
 
-export const Button = forwardRef((props, ref) =>
-    <ButtonStyled ref={ref} {...props} >hola</ButtonStyled>
+export const Button = forwardRef(
+    (props, ref) =>
+        <ButtonStyled ref={ref} {...props} />
 );
+
+const ButtonStyled = styled.button`
+  background: red;
+  color: white;
+`;

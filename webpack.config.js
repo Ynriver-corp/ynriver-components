@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    mode: 'development',
+    mode: 'production',
     entry: './src/index.js',
     output: {
         path: path.resolve('dist'),
@@ -20,11 +20,12 @@ module.exports = {
                             '@babel/preset-react'
                         ],
                         plugins: [
-                            "@babel/plugin-transform-arrow-functions",
-                            "@babel/plugin-transform-async-to-generator",
-                            "@babel/plugin-transform-object-assign",
+                            "babel-plugin-styled-components",
+                            "@babel/transform-react-jsx",
                             "@babel/plugin-transform-runtime",
-                            "babel-plugin-styled-components"
+                            "@babel/plugin-transform-object-assign",
+                            "@babel/plugin-transform-arrow-functions",
+                            "@babel/plugin-transform-async-to-generator"
                         ]
                     }
                 }

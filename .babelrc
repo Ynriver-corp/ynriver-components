@@ -4,9 +4,8 @@
     "@babel/preset-react"
   ],
   "plugins": [
-    "@babel/transform-react-jsx",
-    "transform-object-rest-spread",
     "babel-plugin-styled-components",
+    "@babel/transform-react-jsx",
     "@babel/plugin-transform-runtime",
     "@babel/plugin-transform-object-assign",
     "@babel/plugin-transform-arrow-functions",
