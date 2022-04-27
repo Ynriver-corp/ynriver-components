@@ -1,8 +1,8 @@
-import {Button} from "./components/form/Button";
+export {Button} from "./components/form/Button";
 
 //exports.Button = Button;
 //module.exports = {Button}
-export default {Button}
+//export default {Button}
 
 // TODO: Install antd.
 // TODO: BTN.
