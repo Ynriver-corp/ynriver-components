@@ -2,10 +2,13 @@ const path = require('path');
 
 module.exports = {
     mode: 'production',
-    entry: './src/index.js',
+    entry: [path.resolve(__dirname, 'src/index.js')],
     output: {
         path: path.resolve('dist'),
         filename: 'index.js',
+        library: 'Button',
+        libraryTarget: 'umd',
+        globalObject: 'this',
     },
     module: {
         rules: [
@@ -20,7 +23,7 @@ module.exports = {
                             '@babel/preset-react'
                         ],
                         plugins: [
-                            "babel-plugin-styled-components",
+                            "styled-components",
                             "@babel/transform-react-jsx",
                             "@babel/plugin-transform-runtime",
                             "@babel/plugin-transform-object-assign",
@@ -35,5 +38,19 @@ module.exports = {
                 use: ['style-loader', 'css-loader'],
             },
         ]
-    }
+    },
+    externals: {
+        react: {
+            commonjs: 'react',
+            commonjs2: 'react',
+            amd: 'React',
+            root: 'React',
+        },
+        'react-dom': {
+            commonjs: 'react-dom',
+            commonjs2: 'react-dom',
+            amd: 'ReactDOM',
+            root: 'ReactDOM',
+        },
+    },
 };
